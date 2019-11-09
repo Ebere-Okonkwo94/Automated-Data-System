@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS</title>
+    <style>
+        body{
+            text-align: center;
+        }
+       
+        .biggest{
+            display: flex;
+            flex-direction: column;
+            width: 800px;
+            margin: 0 auto;
+        }
+
+        #bigger{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            margin-bottom: 20px;
+        
+        }
+
+        #biggee{
+            display: flex;
+            flex-direction: column;
+           
+        }
+        #big{
+            display: flex;
+            flex-direction: inline;
+            justify-content: center;
+            align-items: flex-end;
+        }
+        #bige{
+            display: flex;
+            justify-content: center;
+            
+        }
+        .logo{
+            width: 300px;
+            height: 300px;
+            /* margin-left:200px; */
+
+        }
+        h1{
+            color: purple;
+            font-size: 80px;
+            font-weight: bolder;
+        }
+        p{
+            font-size: 20px;
+        }
+        .second-logo{
+           width: 150px;
+           height: 150px; 
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="biggest">
+        <section id="bigger">
+            <div>
+            <img  src="../asset/techlogo.jpg" alt="tech" class="logo" >
+            </div>
+            <h1>We are training 5 million women to code by 2030</h1>
+            <p>Empowering women with digital <br> skills for future of work</p>
+
+        </section>
+        <section id="biggee">
+            <div id="big">
+                <img src="../asset/women.png" alt="logo" class="logo">
+                <img src="../asset/techlogo.jpg" alt="tech" class="logo second-logo" >
+            </div>
+            <div id="bige">
+                <img src="../asset/otherlogo.jpg" alt="other">
+            </div>
+        </section>
+
+    </div>
+</body>
+</html>

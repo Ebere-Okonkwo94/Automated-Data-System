@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pillar Multimedia</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <style>
+        *{
+            margin: 0;
+        }
+        body{
+            background-color: lightgrey;
+            
+        }
+        .header{
+        display:flex;
+        flex-wrap: wrap;
+        background-color: white;
+        height: 40px;
+        }
+        .menu{
+            margin-top: 6px; 
+             
+        }
+        a{
+            text-decoration: none;
+            margin-left: 30px;
+            color: black;
+            font-size: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #head{
+            font-size: 25px;
+            font-display: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .container{
+            text-align: center;
+            /* width: 800px;
+            margin: auto; */
+        }
+        p{
+            margin: 40px auto;
+        }
+        .grid{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            /* margin: 30px; */
+            /* width: 240px; */
+        }
+        .big{
+            margin: 30px;
+            width: 30%;
+            /* margin: 40px; */
+            text-align: left;
+        }
+        .expertise p{
+            line-height: 30px;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        .expertise h2{
+            margin: 20px
+        }
+        .grid p{
+            font-size: 15px;
+            line-height: 20px;
+            font-family: Arial, Helvetica, sans-serif; 
+        }
+        h2{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        /* .icons{
+            margin-left: 1300px;
+            justify-content: space-between;  
+        } */
+        .icons{
+            border-left: 1px solid gray;
+            /* padding: 10px; */
+            margin-left: 1000px;
+        }
+        /* i{
+            margin-bottom: 10px;
+            justify-content: space-between;
+           
+        } */
+        i{
+            margin: 0 30px 0 6px;
+        }
+            Button {
+                width: 330px;
+                height: 40px;
+                background-color:gray;
+                border: 2px solid gray;
+                border-radius: 5px;
+                margin-bottom: 30px;
+            }
+    </style>
+    <script>
+        
+    bankAccount  = prompt ('please tell me your account balance');
+    console.log(bankAccount);
+    </script>
+<body>
+    <div class="header">
+        <div id="head">
+           Pillar.
+        </div>
+        <div class="menu">
+            <a href="#">HOME</a>
+            <a href="#">PAGES</a>
+            <a href="#">WORK</a>
+            <a href="#">SHOP</a>
+            <a href="#">BLOG</a>
+            <a href="#">ELEMENTS</a>
+        </div>
+        <div class="icons">
+            <i class="fa fa-search"></i>
+            <i class="fa fa-app-store-ios"></i>
+        </div>
+        
+    </div>
+    <div class="container">
+        <div class="expertise">
+            <h2>Our Expertise</h2>   
+            <p>We work across digital and print media to deliver bold, effective <br> identities for businesses in all
+                 industries</p>
+        </div>
+        <div class="grid">
+            <div class="big">
+                <p>INTERFACE DESIGN</p>
+                <p>Pillar comes with flexible content blocks and Variant Page Builder - this makes building your perfect
+                     layout easier than never before.</p>
+            </div> 
+            <div class="big">
+                <p>USER INTERACTION</p>
+                <P>Combine multiple purpose-built elements to craft your perfect conversion focused landing page - and do 
+                    it all in the comfort of your browser.</P>
+            </div> 
+            <div class="big">
+                <p>INTERNET OF THINGS</p>
+                <p>Clever social integrations such as Mail Chimp, Compaign Monitor and styled Twitter Feeds give your site
+                     a dynamic edge.</p>
+            </div>
+            <div class="big">
+                <p>PRODUCT DESIGN</p>
+                <p>Flexible data attribute modifiers make customising elements fast and easy. add overlays, actions and 
+                    adjust plugin parameters all from the HTML</p>
+            </div>
+
+        </div>
+    </div> 
+    <p id='hephzibah'>OKONKWO, EBERE MARY</p> 
+
+    <button onclick="document.getElementById('hephzibah').innerHTML='Miriam Chukwu'"> PRESS ME </button>
+    <input type="text" placeholder="Enter Name.."/> 
+    <button>submit</button>
+    
+    
+</body>
+</html>
